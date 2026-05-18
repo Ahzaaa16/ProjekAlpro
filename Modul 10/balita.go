@@ -12,7 +12,7 @@ func hitungMinMax(arrBerat arrBalita, n int, bMin *float64, bMax *float64) {
 
 	for i = 1; i < n; i = i + 1 {
 		if arrBerat[i] < *bMin {
-			*bMin = arrBerat[i]
+			*bMin = arrBerat[i]	
 		}
 		if arrBerat[i] > *bMax {
 			*bMax = arrBerat[i]
